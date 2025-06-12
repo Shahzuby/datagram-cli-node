@@ -7,7 +7,7 @@ Easily set up your Datagram node on any Linux VPS using this step-by-step guide.
 
 ## 🧰 Requirements
 
-- Linux VPS (Ubuntu 20.04 or 22.04)
+- Linux VPS (Ubuntu 24.04)
 - 2 vCPU, 4GB RAM minimum
 - Datagram account: [https://dashboard.datagram.network?ref=611936283]
 - Your personal API Key from the dashboard 
