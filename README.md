@@ -56,11 +56,7 @@ screen -r datagram
 
 ---
 
-## 🔗 Link Your Node to Dashboard
-
-1. Wait 30–90 seconds for the device to appear
-2. Select the device
-3. Click **"Link License"**
+Wait 30–90 seconds for the device automatically  to appeared
 
 ![image](https://github.com/user-attachments/assets/6d069bd4-d3a4-41aa-bc46-d2b5b2fc02ce)
 
