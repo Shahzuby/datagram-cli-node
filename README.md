@@ -26,7 +26,10 @@ sudo apt update && sudo apt install -y wget screen
 ### 2. Download the Datagram CLI
 ```bash
 wget https://github.com/Datagram-Group/datagram-cli-release/releases/latest/download/datagram-cli-x86_64-linux
+```bash
 chmod +x datagram-cli-x86_64-linux
+```
+```bash
 mv datagram-cli-x86_64-linux datagram-cli
 ```
 
