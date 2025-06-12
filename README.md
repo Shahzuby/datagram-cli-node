@@ -5,21 +5,13 @@ Easily set up your Datagram node on any Linux VPS using this step-by-step guide.
 
 ---
 
-Then run:
-```bash
-chmod +x datagram-cli-x86_64-linux
-mv datagram-cli-x86_64-linux datagram-cli
-```
-
----
-
 ## 🧰 Requirements
 
 - Linux VPS (Ubuntu 20.04 or 22.04)
 - 2 vCPU, 4GB RAM minimum
 - Datagram account: [https://dashboard.datagram.network?ref=611936283]
-- Your personal API Key from the dashboard![image](https://github.com/user-attachments/assets/8519d0ef-707d-4d1f-9ba6-d74c2f10bcbd)
-
+- Your personal API Key from the dashboard 
+![image](https://github.com/user-attachments/assets/bcd084da-a420-46b7-9f07-683d2f862aca)
 
 ---
 
@@ -27,6 +19,7 @@ mv datagram-cli-x86_64-linux datagram-cli
 
 ### 1. Update your VPS
 ```bash
+sudo apt-get update && sudo apt-get upgrade -y
 sudo apt update && sudo apt install -y wget screen
 ```
 
@@ -39,7 +32,7 @@ mv datagram-cli-x86_64-linux datagram-cli
 
 ### 3. Run the node with your API key
 ```bash
-./datagram-cli run -- -key YOUR_API_KEY_HERE
+screen -S datagram
 ```
 
 ---
@@ -48,7 +41,6 @@ mv datagram-cli-x86_64-linux datagram-cli
 
 ### Start the node in screen:
 ```bash
-screen -S datagram
 ./datagram-cli run -- -key YOUR_API_KEY_HERE
 ```
 
@@ -66,26 +58,11 @@ screen -r datagram
 
 ## 🔗 Link Your Node to Dashboard
 
-1. Visit: [https://dashboard.datagram.network](https://dashboard.datagram.network)
-2. Wait 30–90 seconds for the device to appear
-3. Select the device
-4. Click **"Link License"**
+1. Wait 30–90 seconds for the device to appear
+2. Select the device
+3. Click **"Link License"**
 
----
-
-## 🔁 Auto-start on VPS Reboot (Optional)
-
-Run:
-```bash
-crontab -e
-```
-
-Then add:
-```bash
-@reboot screen -dmS datagram /root/datagram-cli run -- -key YOUR_API_KEY_HERE
-```
-
-Replace `/root/` with the correct path to your binary.
+![image](https://github.com/user-attachments/assets/6d069bd4-d3a4-41aa-bc46-d2b5b2fc02ce)
 
 ---
 
@@ -97,6 +74,6 @@ You're now running a Datagram node 24/7. Keep it online for maximum rewards!
 
 ### 💬 Community Help
 
-If you need support, share logs or join the community chat.
+If you need support, share logs or join the community chat join telegram channel - https://t.me/andhiiTGkamaii
 
 **Made with ❤️ by the community**
