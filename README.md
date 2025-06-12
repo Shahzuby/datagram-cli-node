@@ -5,10 +5,6 @@ Easily set up your Datagram node on any Linux VPS using this step-by-step guide.
 
 ---
 
-## 📥 Download CLI (Official)
-
-👉 **[Click here to download Datagram CLI](https://github.com/Datagram-Group/datagram-cli-release/releases/latest/download/datagram-cli-x86_64-linux)**
-
 Then run:
 ```bash
 chmod +x datagram-cli-x86_64-linux
@@ -20,9 +16,10 @@ mv datagram-cli-x86_64-linux datagram-cli
 ## 🧰 Requirements
 
 - Linux VPS (Ubuntu 20.04 or 22.04)
-- 1 vCPU, 2 GB RAM minimum
-- Datagram account: [https://dashboard.datagram.network](https://dashboard.datagram.network)
-- Your personal API Key from the dashboard
+- 2 vCPU, 4GB RAM minimum
+- Datagram account: [https://dashboard.datagram.network?ref=611936283]
+- Your personal API Key from the dashboard![image](https://github.com/user-attachments/assets/8519d0ef-707d-4d1f-9ba6-d74c2f10bcbd)
+
 
 ---
 
