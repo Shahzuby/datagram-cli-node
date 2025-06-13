@@ -36,16 +36,14 @@ chmod +x datagram-cli-x86_64-linux
 mv datagram-cli-x86_64-linux datagram-cli
 ```
 
-### 3. Run the node with your API key
+## 🖥️ Run in Background Using `screen`
+
+### Start the node in screen:
 ```bash
 screen -S datagram
 ```
 
----
-
-## 🖥️ Run in Background Using `screen`
-
-### Start the node in screen:
+### 3. Run the node with your API key
 ```bash
 ./datagram-cli run -- -key YOUR_API_KEY_HERE
 ```
