@@ -47,6 +47,12 @@ screen -S datagram
 ```bash
 ./datagram-cli run -- -key YOUR_API_KEY_HERE
 ```
+if you face any issue from above start cmd then use below cmd with your api key 
+
+```bash
+mkdir -p ~/tmp && TMPDIR=~/tmp ./datagram-cli run -- -key YOUR_API_KEY_HERE 
+```
+
 
 ### Detach screen (keep running in background):
 ```bash
