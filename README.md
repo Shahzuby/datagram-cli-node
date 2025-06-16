@@ -72,6 +72,19 @@ Wait 30–90 seconds for the device automatically  to appeared
 
 ---
 
+time to update your node in new version of datagram 
+
+```bash
+screen -r datagram
+```
+
+```bash
+rm -rf ~/.datagram/ai-router/.db
+```
+
+and follow install guide for reintall new V from step 1 
+
+
 ## ✅ Done!
 
 You're now running a Datagram node 24/7. Keep it online for maximum rewards!
