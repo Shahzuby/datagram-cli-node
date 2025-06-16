@@ -82,7 +82,7 @@ screen -r datagram
 rm -rf ~/.datagram/ai-router/.db
 ```
 
-and follow install guide for reintall new V from step 1 
+and follow install guide for reintall new V from step 2 and 3 dont create screen again you are already in screen 
 
 
 ## ✅ Done!
